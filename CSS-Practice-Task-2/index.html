@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        .container{
+            width: 70%;
+            margin: 0 auto; 
+            border: 2px solid gray;
+        }
+
+        .header{
+            background-image: url('pic_bg.png'); 
+            background-size: 100% 100%; 
+            margin: 0 -5px; 
+            padding-bottom: 40px;
+            padding-top: 40px;
+            display: flex;
+            flex-direction: column; 
+            align-items: center;
+        }
+
+        .name{
+            background-color: hsla(44, 98%, 51%, 0.986);
+            color: black;
+            width: fit-content; 
+            margin: 0 5px;
+            border-radius: 4%;
+            font-size: 40px;
+            padding: 5px 20px;
+        }
+
+        .body{
+            display: flex; 
+            flex-direction: row; 
+            padding: 10px;
+        }
+
+        .slider{
+            
+            float: right;
+            width: 200px;
+            outline: none;
+            opacity: 0.7;
+            -webkit-transition: .2s;
+            transition: opacity .2s;
+            
+            
+        }
+        input[type="range"]{
+            overflow: hidden;
+            
+            -webkit-appearance: none;
+            background-color: rgb(184, 180, 180);
+        }
+
+
+
+        input[type="range"]::-webkit-slider-thumb {
+            width: 10px;
+            -webkit-appearance: none;
+            height: 10px;
+            cursor: auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: -80px 0 0 80px #f5c118;
+        }
+
+        
+
+        .slider:hover {
+            opacity: 1;
+        }
+
+        
+
+    </style>
+
+</head>
+<body>
+    <div class="container" >
+        <div class="header" >
+            <div><img src="profile_pic.jpeg" height="180px" width="180px" style="border-radius: 50%;"></div>
+            
+            <div><p class ="name">
+                BRIAN DUDEY
+            </p></div>
+            
+        </div>
+        <p style="text-align: center;">N. Damen Avenue, Chicago 99999 | 999-999-9999 
+            | hello@kickresume.com | www.kickresume.com
+        </p>
+        <hr>
+        <div class="body">
+            <div style="margin: 0px 30px ;width: 50%;">
+                <img src="profile.png" align="left">
+                <h2 style="margin: 15px; padding-left: 45px;">Profile</h2>
+                <p>Innovative optimized solution seeker. Exicited to be
+                    at the deployment phase of my new career as a web developer. 
+                    I am ambitious, adventurous, assiduous, animated, and an 
+                    alliteration advocate.
+                </p>
+                <img src="skills.png" align="left"></i><h2 style="margin: 30px;padding-left: 30px;">Skills</h2>
+                <p style="text-align: center;"><b>Technical Skills</b></p>
+                
+                <p style="float: left;margin-top: 0px;">JavaScript</p>
+                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+
+                <p style="float: left;clear: both;margin-top: 0px;">CSS</p>
+                <input type="range" min="1" max="100" value="60" class="slider" id="myRange">
+
+                <p style="float: left;clear: both;margin-top: 0px;">HTML</p>
+                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+
+                <p style="float: left;clear: both;margin-top: 0px;">React</p>
+                <input type="range" min="1" max="100" value="80" class="slider" id="myRange">
+
+                <p style="float: left;clear: both;margin-top: 0px;">Redux</p>
+                <input type="range" min="1" max="100" value="40" class="slider" id="myRange">
+               
+                
+                <p style="text-align: center;clear: both;"><b>Additional Skills</b></p>
+
+                <p style="float: left;margin-top: 0px;">Project Management</p>
+                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+
+                <p style="float: left;clear: both;margin-top: 0px;">Recruitment</p>
+                <input type="range" min="1" max="100" value="60" class="slider" id="myRange">
+
+                <p style="float: left;clear: both;margin-top: 0px;">Buisness Development</p>
+                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+
+                <p style="float: left;clear: both;margin-top: 0px;">Editing</p>
+                <input type="range" min="1" max="100" value="80" class="slider" id="myRange">
+
+                <p style="float: left;clear: both;margin-top: 0px;">Fundraising</p>
+                <input type="range" min="1" max="100" value="40" class="slider" id="myRange">
+                <br>
+
+
+                <div style="clear: both;"></div>
+                
+                <img src="work.png" align="left"></i><h2 style="margin: 10px; padding-left: 50px;">Work experience</h2>
+                <p style="float: left;clear: both;"><b>Event Manager</b></p>
+                <p style="float: right;">03/2014 - 02/2017</p>
+            
+                <p style="clear: both;">C3 Presents, Washington DC</p>
+                <ul>
+                    <li>
+                        Lead and execute all phases of event planning and 
+                        production spanning committee recruitment, training, vendor 
+                        relationships and on-site facilitation.
+                    </li>
+                    <li>
+                        Brought new buisness to the organization through relentless networking
+                        and stewardship which helped the company win the bid for the State Department
+                        Summit on the Middle East and, the companies largest civic event to date,
+                        the United State of Women.
+                    </li>
+                    <li>
+                        Exercise fiscal control over budget creation, tracking and reporting.
+                        Collaborate with employees at all organizational levels to advance 
+                        cohesive operations.
+                    </li>
+                </ul>
+            </div>
+            <div style="border-left: 2px solid grey; height: auto ;margin: 0px 30px;"></div>
+            <div style="margin: 0px 30px ;width: 50%;">
+                
+                <img src="work.png" align="left"></i><h2 style="margin: 10px; padding-left: 50px;">Work experience</h2>
+                <p style="float: left;clear: both;"><b>Community Relations Manager</b></p>
+                <p style="float: right;">06/2011 - 01/2014</p>
+            
+                <p style="clear: both;">Gay & Lesbian Elder Housing, Los Angeles</p>
+                <ul>
+                    <li>
+                        Arranging presentations and pitch deck.
+                    </li>
+                    <li>
+                        Designing a PR plan and establishing important focus points.
+                    </li>
+                    <li>
+                        Designing, creating and managing content across multiple 
+                        communication platforms.
+                    </li>
+                    <li>
+                        Building relationships with key media players.
+                    </li>
+                </ul>
+
+                <img src="education.png" align="left"></i><h2 style="margin: 30px;padding-left: 30px;">Education</h2>
+                <p style="float: left;clear: both;"><b>Engineering Immersion Program</b></p>
+                <p style="float: right;">11/2018 - 06/2018</p>
+            
+                <p style="clear: both;">Thinkful, Chicago, IL</p>
+                <p>Project-focused intensive program with emphasis on Mongo, Express, 
+                    React, and JavaScript (MERN) technical stack.
+                </p>
+                <ul>
+                    <li>
+                        Developed a full-stack web application, "RenewU", using React that allows
+                        users to explore various aspects of meditation. Users's progress is stored
+                        on a backend created using Node and MongoDB.
+                    </li>
+                    <li>
+                        Developed a language learning app, "Foodie Phonetics" using spaced 
+                        repetition and a linked list data structure. React was used to create
+                         the front end components while Node and Mongo were used to create a backend
+                          that stores user data.
+                    </li>
+                    <li>
+                        Developed a concierge app, "Pley", for individuals looking for curated
+                         suggestions when visiting a new place. React was used to develop the front 
+                         end which includes real-time chat, drag and drop and variety of advanced features. 
+                         The backend, built using Node, Express, and Mongo, takes advantage of well-developed 
+                         RESTful API, Geospatial searching, and user authentication with JWT.
+                    </li>
+                    
+                </ul>
+
+                <p style="float: left;"><b>BA, English</b></p>
+                <p style="float: right;">09/2001 - 06/2005</p>
+            
+                <p style="clear: both;">University of California, Los Angeles</p>
+
+
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
