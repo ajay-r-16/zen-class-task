@@ -1,0 +1,215 @@
+body{
+    width: 80vh;
+    padding-left: 30px;
+}
+
+hr{
+    background-color: black;
+    height: 2px;
+}
+/* QUESTION 2 */
+img{
+    border-radius: 10px;
+    border-style: dashed;
+    filter: grayscale(100%);
+}
+/* QUESTION 3 */
+
+@media only screen and ( max-width: 1100px ) {
+    body {
+        font-size: 10px;
+    }
+}
+
+@media only screen and ( max-width: 1000px ) {
+    body {
+        font-size: 20px;
+    }
+}
+
+@media only screen and ( max-width: 900px ) {
+    body {
+        font-size: 30px;
+        width: 100vh;
+    }
+}
+
+
+/* QUESTION 4 */
+
+.alias {
+    cursor: alias;
+}
+.all-scroll {cursor: all-scroll;}
+.auto {cursor: auto;}
+.cell {cursor: cell;}
+.context-menu {cursor: context-menu;}
+.col-resize {cursor: col-resize;}
+.copy {cursor: copy;}
+.crosshair {cursor: crosshair;}
+.default {cursor: default;}
+.e-resize {cursor: e-resize;}
+.ew-resize {cursor: ew-resize;}
+.grab {cursor: -webkit-grab; cursor: grab;}
+.grabbing {cursor: -webkit-grabbing; cursor: grabbing;}
+.help {cursor: help;}
+.move {cursor: move;}
+.n-resize {cursor: n-resize;}
+.ne-resize {cursor: ne-resize;}
+.nesw-resize {cursor: nesw-resize;}
+.ns-resize {cursor: ns-resize;}
+.nw-resize {cursor: nw-resize;}
+.nwse-resize {cursor: nwse-resize;}
+.no-drop {cursor: no-drop;}
+.none {cursor: none;}
+.not-allowed {cursor: not-allowed;}
+.pointer {cursor: pointer;}
+.progress {cursor: progress;}
+.row-resize {cursor: row-resize;}
+.s-resize {cursor: s-resize;}
+.se-resize {cursor: se-resize;}
+.sw-resize {cursor: sw-resize;}
+.text {cursor: text;}
+.url {cursor: url(myBall.cur),auto;}
+.w-resize {cursor: w-resize;}
+.wait {cursor: wait;}
+.zoom-in {cursor: zoom-in;}
+.zoom-out {cursor: zoom-out;}
+
+.boxModel{
+    border: 2px solid grey;
+    margin: 20px;
+    padding: 50px;
+}
+
+/* QUESTION 5 */
+div{
+    margin: 1px 1px 1px 1px;
+    border: 2px;
+    padding:2px 2px 2px 2px;
+}
+/* QUESTION 6 */
+.changeSpan:hover{
+    font-size: 30px;
+    color: rgba(179, 56, 142, 0.815);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* QUESTION 7 */
+.translate{
+    transform: translate(200px);
+}
+
+/* QUESTION 8 */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    margin-bottom: 20px;
+  }
+  
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+/* QUESTION 9 */
+.clipimg {
+    position: absolute;
+    clip: rect(0px,300px,100px,0px);
+}
+/* QUESTION 10 */
+.firstcharacter{
+    font-size: 400%;
+    font-weight: 300;
+    font-size: 75px;
+    line-height: 60px;
+    float: left;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 3px;
+  }
+/* QUESTION 11 */
+.half-rounded-rectangle{
+    height: 100px;
+    width: 200px;
+    background-color: aqua;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+/* QUESTION 12 */
+body{
+    background-image: url('cat.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* QUESTION 13 */
+.reverseFlex{
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    width: auto;
+}
+
+.borderimg{
+    border: 10px solid transparent;
+    border-image: url(./border.png) 30 stretch;
+    margin-bottom: 30px;
+
+}
+    
+
+.round_div{
+    border: 2px solid grey;
+    border-bottom-left-radius: 25px;
+    margin-bottom: 20px;
+    padding:20px;
+}
+
+.img_opacity{
+    opacity: 0.5;
+}
+
+.img_opacity:hover{
+    opacity: 1;
+}
+
+.right_div{
+    position: absolute;
+    right: 20px;
+}
+.scroll{
+    overflow-y: auto;
+    height: 100px;
+    margin: 80px 0;
+    text-align: center;
+}
+.linear_gradient{
+    margin-top: 80px;
+    height: 300px;
+    width: 600px;
+    background: linear-gradient(white,red,blue,green);
+}
+
+.rotate{
+    margin: 50px;
+    height: 100px;
+    width: 100px;
+    background-color: lightblue;
+    transform: rotate(45deg);
+}
+
